@@ -1,0 +1,22 @@
+a {
+  display: inline-block;
+  cursor: pointer;
+  padding: 9px 19px;
+  border: 5px double white;
+  border-radius: 8px;
+  font: normal 16px/normal "Courier New";
+  color: white;
+  background: #0e824f;
+  text-decoration: none;
+}
+
+i{
+    margin-left: 4;
+}
+
+a:nth-child(2) i:nth-child(3){
+    color: #42a05c;
+}
+a:nth-child(3) i{
+    color: #42a05c;
+}
